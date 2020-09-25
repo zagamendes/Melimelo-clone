@@ -1,0 +1,24 @@
+{
+    "menu-item#alege": {
+        "props": {
+          "itemProps": {
+            "text": "ALEGE CATEGORIA"
+          },
+          "blockClass":"title-sub-category"
+        }
+      },
+      "menu-item#bijuterii": {
+        "props": {
+          "itemProps": {
+            "text": "Bijuterii"
+          }
+        }
+      },
+      "menu-item#genti": {
+        "props": {
+          "itemProps": {
+            "text": "Genti si portofele"
+          }
+        }
+      }
+}

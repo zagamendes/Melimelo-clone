@@ -1,0 +1,11 @@
+.styledLinkContent--title-category{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.styledLinkContent--title-sub-category{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.submenuWrapper{
+    width: 800px;
+}

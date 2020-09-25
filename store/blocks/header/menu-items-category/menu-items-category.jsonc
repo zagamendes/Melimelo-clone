@@ -1,0 +1,53 @@
+{
+    "menu-item#categoria1": {
+        "props": {
+          "blockClass":"title-category",
+          "itemProps": {
+            "text": "femei"
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu#subItems1"
+        ]
+      },
+      "menu-item#categoria2": {
+        "props": {
+         "blockClass":"title-category",
+          "itemProps": {
+            "text": "Categoria 2"
+          }
+        }
+      },
+      "menu-item#categoria3": {
+        "props": {
+         "blockClass":"title-category",
+          "itemProps": {
+            "text": "Categoria 3"
+          }
+        }
+      },
+      "menu-item#categoria4": {
+        "props": {
+         "blockClass":"title-category",
+          "itemProps": {
+            "text": "Categoria 4"
+          }
+        }
+      },
+      "menu-item#categoria5": {
+        "props": {
+         "blockClass":"title-category",
+          "itemProps": {
+            "text": "Categoria 5"
+          }
+        }
+      },
+      "menu-item#categoria6": {
+        "props": {
+         "blockClass":"title-category",
+          "itemProps": {
+            "text": "Categoria 6"
+          }
+        }
+      }
+}

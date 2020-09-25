@@ -1,0 +1,89 @@
+{
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#1",
+      "header-row#2",
+      "header-row#3"
+    ]
+  },
+  
+  "header-row#2": {
+    "children": [
+      "logo",
+      "search-bar",
+      "login",
+      "minicart.v2"
+    ],
+    "props":{
+      "blockClass":"row-search-bar"
+    }
+  },
+  "header-row#3": {
+    "children": [
+      "vtex.menu@2.x:menu#main"
+    ],
+    "props":{
+      "blockClass":"row-menu-category"
+
+    }
+  },
+  "logo": {
+    "props": {
+      "width": 240,
+      "height": 40,
+      "url": "https://melimeloparis.vtexassets.com/arquivos/logo.png"
+    }
+  },
+  
+  "vtex.menu@2.x:menu#main": {
+    "children": [
+      "menu-item#categoria1",
+      "menu-item#categoria2",
+      "menu-item#categoria3",
+      "menu-item#categoria4",
+      "menu-item#categoria5",
+      "menu-item#categoria6"
+    ]
+    
+  },
+  
+  "vtex.menu@2.x:submenu#subItems1": {
+    "children": [
+      "vtex.menu@2.x:menu#item1"
+    ]
+  },
+  "vtex.menu@2.x:menu#item1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row"
+    ]
+  },
+  
+  "flex-layout.row": {
+    "children": [
+      "flex-layout.col#alege",
+      "image"
+    ]
+  },
+  "flex-layout.col#alege": {
+    "children": [
+      "menu-item#alege",
+      "menu-item#bijuterii",
+      "menu-item#genti"
+    ]
+  },
+  "image": {
+    "props": {
+      "src": "https://melimeloparis.vtexassets.com/arquivos/logo.png",
+      "maxWidth": "100%"
+    }
+  }
+}

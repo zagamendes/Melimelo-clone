@@ -1,0 +1,8 @@
+.headerRowContainer--row-search-bar{
+    justify-content: space-around;
+    display: flex;
+}
+.headerRowContainer--row-menu-category{
+    justify-content: space-around;
+    display: flex;
+}

@@ -1,0 +1,39 @@
+{
+    "header-row#1": {
+        "children": [
+            "slider-layout#header-textos"
+        ],
+        "props": {
+            "fullWidth": "true"
+        }
+    },
+    "slider-layout#header-textos": {
+        "props": {
+            "showPaginationDots": "never",
+            "itemsPerPage": 1,
+            "infinite": true,
+            "showNavigationArrows": "never",
+            "blockClass": "carousel-texto",
+            "autoPlay": {
+                "timeout": 500,
+                "stopOnHover": false
+            }
+        },
+        "children": [
+            "rich-text#texto1",
+            "rich-text#texto2"
+        ]
+    },
+    "rich-text#texto1": {
+        "props": {
+            "text": "IT'S NOT WORKING",
+            "blockClass": "header-slide-text"
+        }
+    },
+    "rich-text#texto2": {
+        "props": {
+            "text": "Still trying to change the color of text",
+            "blockClass": "header-slide-text"
+        }
+    }
+}
